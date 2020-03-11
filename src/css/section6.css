@@ -1,0 +1,190 @@
+@media only screen and (min-width: 321px) {
+  #textreviewssecion h5 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #37373F;
+    margin: 131px 0px 0px 0px;
+  }
+  .reviewAvatar {
+    float: left;
+    padding-top: 40px;
+  }
+  .textreviews p {
+    width: 530px;
+    margin-left: 100px;
+    margin-top: 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #37373F;
+  }
+  .reviewInfoUl {
+    float: left;
+    margin-left: 20px;
+    padding-top: 40px;
+  }
+  .reviewInfoUl h6 {
+    margin: 0px 0px 0px 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #37373F;
+  }
+  .reviewInfoUl ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  .reviewInfoUl ul li {
+    margin: 0px 0px 10px 0px;
+  }
+  .reviewInfoUl ul li .arrowgreen {
+    margin-left: 50px;
+  }
+  .reviewInfoUl ul li:nth-child(3) {
+    float: left;
+  }
+  .reviewInfoUl ul li:nth-child(4) {
+    float: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #B3B3B3;
+  }
+  .reviewInfo {
+    float: left;
+    padding-left: 20px;
+    border-bottom: 1px solid #C7C7C7;
+    padding-bottom: 24px;
+  }
+  .reviewInfo .reviewdate {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #B3B3B3;
+    margin-left: 100px;
+  }
+  .viewAllReview {
+    margin: 49px 0px 47px 0px;
+    text-align: center;
+  }
+  .viewAllReview a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #5286EC;
+  }
+}
+
+@media (max-width: 320px) {
+  #textreviewssecion {
+    padding: 0px 15px 0px 15px;
+  }
+  #textreviewssecion h5 {
+    width: 290px;
+    height: 32px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+    color: #37373F;
+  }
+  #textreviewssecion ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+  #textreviewssecion ul li {
+    margin: 0px 0px 10px 100px;
+    width: 180px;
+  }
+  #textreviewssecion ul li h6 {
+    margin: 0px 0px 0px 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #37373F;
+  }
+  #textreviewssecion ul li:nth-child(4) {
+    width: 290px;
+    margin: 24px 0px 0px 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #B3B3B3;
+  }
+  #textreviewssecion .reviewInfoUl {
+    padding-top: 35px;
+  }
+  #textreviewssecion .reviewAvatar {
+    float: left;
+    width: 84px;
+    height: 84px;
+    margin-top: 35px;
+  }
+  #textreviewssecion .reviewAvatar img {
+    width: 84px;
+    height: 84px;
+  }
+  #textreviewssecion .textreviews {
+    margin-left: 0px;
+  }
+  #textreviewssecion .textreviews p {
+    width: 290px;
+    margin-top: 0px;
+  }
+  .reviewInfo {
+    float: left;
+    margin-left: 0px;
+    border-bottom: 1px solid #C7C7C7;
+    padding-top: 0px;
+    padding-bottom: 24px;
+  }
+  .reviewInfo .reviewdate {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #B3B3B3;
+  }
+  .viewAllReview {
+    text-align: center;
+    margin-top: 49px;
+    margin-bottom: 50px;
+  }
+  .viewAllReview a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #5286EC;
+  }
+}
+/*# sourceMappingURL=section6.css.map */

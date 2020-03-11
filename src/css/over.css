@@ -1,0 +1,219 @@
+@media only screen and (min-width: 321px) {
+  .over {
+    display: none;
+    position: absolute;
+    width: 615px;
+    height: 887px;
+    left: 50%;
+    margin-left: -262px;
+    top: 231px;
+    z-index: 5;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 62px 97px 0px 97px;
+    text-align: left;
+    z-index: 100 !important;
+  }
+  .over h4 {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    z-index: 10;
+    color: #37373F;
+  }
+  .over label {
+    width: 100%;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #37373F;
+    margin: 10px 0px 10px 0px;
+  }
+  .over label span {
+    color: darkred;
+  }
+  .over input {
+    display: block;
+    width: 420px;
+    height: 44px;
+    border: 1px solid #C7C7C7;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 3px;
+    padding: 13px 20px 11px 20px;
+    margin: 10px 0px 10px 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .over #name6 {
+    margin: 10px 0px 0px 0px;
+    border-radius: 2px 2px 0px 0px;
+  }
+  .over #name7 {
+    margin: 0px 0px 0px 0px;
+    border-top: none;
+    float: left;
+    width: 210px;
+    border-radius: 0px 0px 0px 2px;
+  }
+  .over #name8 {
+    margin: 0px 0px 0px 0px;
+    border-top: none;
+    border-radius: 0px 0px 2px 0px;
+    float: left;
+    width: 210px;
+    border-left: none;
+  }
+  .over #agree {
+    width: 16px;
+    height: 16px;
+    -webkit-box-shadow: 0px 0px 3px rgba(252, 155, 9, 0.6);
+            box-shadow: 0px 0px 3px rgba(252, 155, 9, 0.6);
+    border-radius: 2px;
+    float: left;
+    margin-top: 40px;
+  }
+  .over #agreelabel {
+    float: left;
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 360px;
+  }
+  .over button {
+    width: 390px;
+    height: 72px;
+    background: #FC9B09;
+    border-radius: 3px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    border: none;
+    margin-left: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 320px) {
+  .over {
+    display: none;
+    position: absolute;
+    width: 290px;
+    height: 946px;
+    left: 15px;
+    top: 231px;
+    z-index: 5;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 0px 10px 0px 10px;
+    text-align: left;
+    z-index: 100;
+  }
+  .over h4 {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    color: #37373F;
+  }
+  .over label {
+    width: 100%;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #37373F;
+    margin: 10px 0px 10px 0px;
+  }
+  .over label span {
+    color: darkred;
+  }
+  .over input {
+    display: block;
+    width: 270px;
+    height: 44px;
+    border: 1px solid #C7C7C7;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 3px;
+    padding: 13px 20px 11px 20px;
+    margin: 10px 0px 10px 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .over #name6 {
+    margin: 10px 0px 0px 0px;
+  }
+  .over #name7 {
+    margin: 0px 0px 0px 0px;
+    border-top: none;
+    float: left;
+    width: 135px;
+  }
+  .over #name8 {
+    margin: 0px 0px 0px 0px;
+    border-top: none;
+    float: left;
+    width: 135px;
+    border-left: none;
+  }
+  .over #agree {
+    width: 16px;
+    height: 16px;
+    -webkit-box-shadow: 0px 0px 3px rgba(252, 155, 9, 0.6);
+            box-shadow: 0px 0px 3px rgba(252, 155, 9, 0.6);
+    border-radius: 2px;
+    float: left;
+    margin-top: 23px;
+  }
+  .over #agreelabel {
+    float: left;
+    margin-top: 23px;
+    margin-left: 10px;
+    width: 227px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #37373F;
+  }
+  .over button {
+    width: 250px;
+    height: 50px;
+    background: #FC9B09;
+    border-radius: 3px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    border: none;
+    color: #FFFFFF;
+  }
+}
+/*# sourceMappingURL=over.css.map */

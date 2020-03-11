@@ -1,0 +1,219 @@
+@media only screen and (min-width: 321px) {
+
+    .yaMap{
+        margin-top: 82px;
+       
+        .map{
+            height: 509px;
+            position: relative;
+            .mapbox{
+                position: absolute;
+                width: 420px;
+                height: 469px;
+                background: white;
+                top:20px;
+                border: 1px solid #C7C7C7;
+                padding-top: 20px;
+                padding-left: 30px;
+
+                    .mapbox-li{
+                        padding-left: 79px;
+                        box-sizing: content-box;
+                        width: 100%;
+                        margin-bottom: 39px;
+
+                        h5{
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 27px;
+                            color: #37373F;
+                            margin: 20px 0px 12px 0px;
+                        }
+
+
+                        p{ 
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 18px;
+                            line-height: 26px;
+                            color: #37373F;
+                            margin: 0px;
+                        }
+
+                        a{
+                            width: 279px;
+                            height: 22px;
+                            text-decoration: none;
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 21px;
+                            /* identical to box height */
+
+
+                            color: #5286EC;
+                        }
+                    }
+                    .mapbox-li:nth-child(1){
+                        background: url(../img/first.svg) no-repeat;
+                        background-position-y: center;
+                    }
+                    .mapbox-li:nth-child(2){
+                        background: url(../img/second.svg) no-repeat;
+                        background-position-y: center;
+                    }
+                    .mapbox-li:nth-child(3){
+                        background: url(../img/third.svg) no-repeat;
+                        background-position-y: center;
+                    }
+                    .mapbox-li:nth-child(4){
+                        background: url(../img/four.png) no-repeat;
+                        background-position-y: center;
+                        h5 {
+                            margin: 20px 0px 0px 0px;
+                            
+                        }
+                    }
+            }
+        }
+
+        .whereare{
+            display: none;
+        }
+    }
+    
+}
+@media (max-width: 320px) {
+    .yaMap{
+        margin-top: 45px;
+        .map{
+            height: 423px;
+
+            .mapbox {
+                display: none;
+            }
+        }
+        .whereare {
+            display: block;
+            width: 274px;
+            height: 380px;
+            border: 1px solid #C7C7C7;
+            margin: 52px 23px 40px 23px;
+            text-align: center;
+
+                .round {
+                    margin-top: 52px;
+                }
+                .leftarrow{
+                    width: 15px;
+                    position: absolute;
+                    margin-top: 60px;
+                    left: 30px;
+                    padding: 20px 50px 20px 20px;
+                    display: block;
+                    box-sizing: content-box;
+                }
+                .rightarrow{
+                    width: 15px;
+                    position: absolute;
+                    margin-top: -60px;
+                    right: 30px;
+                    padding: 20px 20px 20px 50px;
+                    display: block;
+                    box-sizing: content-box;
+                }
+                h5{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 23px;
+                    text-align: center;
+                    margin-top: 15px;
+                    margin-bottom: 0px;
+                    color: #37373F;
+                    height: 18px;
+                }
+                p{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    height: 21px;
+                    font-size: 14px;
+                    line-height: 20px;
+                    /* identical to box height */
+                    margin: 10px 0px 10px 0px;
+                    text-align: center;
+
+                    color: #37373F;
+                }
+                .roundsmallbox{
+                    position: absolute;
+                    left: 128px;
+                    height: 10px;
+                    
+                    img{
+                        padding: 0px 5.5px 0px 5.5px;
+                        margin: 0px;
+                        box-sizing: border-box;
+                    }
+                }
+                
+                .authorInfo{
+                    
+                    padding-top: 52px !important;
+                    img {
+                        width: 67px;
+                        height: 67px;
+                        float: left;
+                        margin-left: 30px;
+                    }
+                    h5{
+                        float: left;
+                        width: 154px;
+                        height: 20px;
+                        margin-top: 0px !important;
+                        margin-left: 6px;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+                    span{
+                        float: left;
+                        width: 73px;
+                        height: 17px;
+                        margin-left: 11px;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 21px;
+
+                        color: #37373F;
+                    }
+                    a {
+                        float: left;
+                        width: 156px;
+                        height: 55px;
+                        text-align: left;
+                        
+                        margin-left: 11px;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 21px;
+
+                        color: #5286EC;
+
+                    }
+                }
+        }
+    }
+}

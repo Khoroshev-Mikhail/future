@@ -1,0 +1,253 @@
+@media only screen and (min-width: 320px) {
+  .left {
+    float: left;
+    width: 570px;
+  }
+  .left .mobul {
+    display: none;
+  }
+  .left .nomobul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  .left .nomobul li {
+    padding: 8px 0px;
+    line-height: 28px;
+    font-size: 14px;
+    vertical-align: middle !important;
+    font-family: Montserrat;
+    padding-left: 51px;
+  }
+  .left .nomobul li img {
+    padding-right: 10px;
+  }
+  .left .nomobul .video-list:nth-child(1) {
+    background: url(../img/group9.svg) no-repeat;
+    background-position-y: center;
+  }
+  .left .nomobul .video-list:nth-child(2) {
+    background: url(../img/group91.svg) no-repeat;
+    background-position-y: center;
+  }
+  .left .nomobul .video-list:nth-child(3) {
+    background: url(../img/map-pin-marked.svg) no-repeat;
+    background-position-y: center;
+  }
+  .left .nomobul .video-list:nth-child(4) {
+    background: url(../img/speech-bubble.svg) no-repeat;
+    background-position-y: center;
+  }
+  .right {
+    float: right;
+    width: 570px;
+    height: 374px;
+    text-align: right;
+    margin-top: -98px;
+  }
+  .right #videoblock {
+    width: 570px;
+    height: 374px;
+  }
+  .left::after {
+    content: ".";
+    display: block;
+    clear: both !important;
+    height: 0;
+    visibility: hidden;
+  }
+  #video {
+    padding-top: 70px;
+  }
+  #video h2 {
+    width: 400px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0px;
+    font-family: Montserrat;
+    line-height: 49px;
+    color: #37373F;
+  }
+  #video p {
+    width: 540px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: Montserrat;
+    color: #37373F;
+  }
+  #video #play {
+    position: absolute;
+    bottom: 20px;
+  }
+  #video #video-img {
+    width: 554px;
+    height: 374px;
+    cursor: pointer;
+  }
+  .reviews {
+    border-top: 1px solid #C7C7C7;
+    border-bottom: 1px solid #C7C7C7;
+    padding: 33px 0px 32px 0px;
+  }
+  .reviews span {
+    background: url(../img/reviews.svg) no-repeat;
+    background-position-y: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    vertical-align: middle;
+    padding: 15px 0px 15px 51px;
+  }
+  .reviews span img {
+    padding-left: 12px;
+  }
+  .reviewsmob {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .left {
+    float: left;
+    width: 320px;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .left .nomobul {
+    display: none;
+  }
+  .left .mobul {
+    padding-left: 0;
+    list-style-type: none;
+    display: block;
+  }
+  .left .mobul li {
+    padding: 8px 0px;
+    line-height: 20px;
+    font-size: 14px;
+    vertical-align: middle !important;
+    font-family: Montserrat;
+    padding-left: 50px;
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: Montserrat;
+    color: #37373F;
+  }
+  .left .mobul li img {
+    padding-right: 10px;
+  }
+  .left .mobul .video-list-mob:nth-child(1) {
+    background: url(../img/group9.svg) no-repeat;
+    background-position-y: center;
+  }
+  .left .mobul .video-list-mob:nth-child(2) {
+    background: url(../img/speech-bubble.svg) no-repeat;
+    background-position-y: center;
+  }
+  .left .mobul .video-list-mob:nth-child(3) {
+    background: url(../img/dollar.png) no-repeat;
+    background-position-y: center;
+  }
+  .left .mobul .video-list-mob:nth-child(4) {
+    background: url(../img/map-pin-marked.svg) no-repeat;
+    background-position-y: center;
+  }
+  .left .mobul .video-list-mob:nth-child(5) {
+    background: url(../img/group91.svg) no-repeat;
+    background-position-y: center;
+  }
+  .right {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    float: right;
+    width: 320px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 197px;
+    text-align: center;
+    margin: 13px 0px 0px 0px;
+  }
+  .right #videoblock {
+    width: 290px;
+    height: 197px;
+  }
+  .left::after {
+    content: ".";
+    display: block;
+    clear: both !important;
+    height: 0;
+    visibility: hidden;
+  }
+  #video {
+    padding-top: 39px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+  }
+  #video h2 {
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 28px;
+    margin: 0px auto;
+    font-family: Montserrat;
+    line-height: 24px;
+    color: #37373F;
+    font-family: Montserrat;
+  }
+  #video p {
+    width: 290px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    padding-left: 15px;
+    line-height: 20px;
+    font-family: Montserrat;
+    color: #37373F;
+  }
+  #video #play {
+    position: absolute;
+    bottom: 20px;
+  }
+  #video #video-img {
+    width: 290px;
+    height: 197px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .reviews {
+    display: none;
+  }
+  .reviewsmob {
+    width: 290px;
+    margin: 0 auto;
+    display: block;
+    border-top: 1px solid #C7C7C7;
+    border-bottom: 1px solid #C7C7C7;
+  }
+  .reviewsmob span {
+    display: block;
+    background: url(../img/reviews.svg) no-repeat;
+    background-position-y: center;
+    padding: 15px 0px 14px 51px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .reviewsmob span .star {
+    display: block;
+  }
+}
+/*# sourceMappingURL=section1.css.map */
